@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Photo Relay</title>
+		<link rel="stylesheet" href="/stylesheets/style.css">
+		<script src="/javascripts/jquery-1.8.3.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/javascripts/app.js"></script>
+	</head>
+	<body>
+		<h1>Photo Relay</h1>
+		<p>Automatically relaying snaphots of you to the internets</p>
+		<p id="unsupported" style="display:none">You are in voyeur mode since your browser doesn't support getUserMedia :(</p>
+		<button style="display:none">STOP</button>
+		<video autoplay></video>
+		<canvas></canvas>
+	</body>
+</html>

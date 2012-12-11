@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+canvas {
+	display: none;
+}
+
+video {
+	left:-2000px;
+	position: absolute;
+}
+
+img {
+	box-shadow: 0px 10px 10px #000;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+#unsupported {
+	color: #F00;
+}
